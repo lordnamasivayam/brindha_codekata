@@ -1,13 +1,14 @@
 #include<stdio.h>
 void main()
 {
-int a,b,c;
+double a,b,c;
 printf("Enter the three number\n");
-scanf("%d%d%d",&a,&b,&c);
+scanf("%lf%lf%lf",&a,&b,&c);
 if(a>b)
-printf(" a is greater");
+printf(" %.1lf",a);
 else if(b>c)
-printf(" b is greater");
+printf(" %.1lf",b);
 else
-printf(" c is greater");
+printf(" %.1lf",c);
 }
+
