@@ -2,19 +2,19 @@
   
 int main() 
 { 
-    int A, B, C; 
+    int a, b, c; 
   
     printf("Enter the numbers A, B and C: "); 
-    scanf("%d %d %d", &A, &B, &C); 
+    scanf("%d %d %d", &a, &b, &c); 
   
-    if (A >= B && A >= C) 
-        printf("%d is the largest number.", A); 
+    if (a >= b && a >= c) 
+        printf("%d is the largest number.", a); 
   
-    if (B >= A && B >= C) 
-        printf("%d is the largest number.", B); 
+    if (b >= a && b >= c) 
+        printf("%d is the largest number.", b); 
   
-    if (C >= A && C >= B) 
-        printf("%d is the largest number.", C); 
+    if (c >= a && c >= b) 
+        printf("%d is the largest number.", c); 
   
     return 0; 
 } 
