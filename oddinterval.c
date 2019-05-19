@@ -7,7 +7,7 @@ int main()
     for(i=n+1;i<=m-1;i++)
 {
     if(i%2==1)
-    printf("%d\n",i);
+    printf("%d ",i);
 }    
 return 0;
 }
