@@ -14,8 +14,12 @@ int main()
     if (lc_Vowel || uc_Vowel) {
     	printf("\n %c is a VOWEL.", ch);
 	}
-    else {
+    else if {
     	printf("\n %c is a CONSONANT.", ch);
+	}
+	else
+	{
+		printf("Invalid"):
 	}
     return 0;
 }
