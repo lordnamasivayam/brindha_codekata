@@ -11,7 +11,7 @@ int main()
         a=a/10;
     }
     if(n==s)
-    printf("Yes");
+    printf("yes");
     else
     printf("no");
     return 0;
