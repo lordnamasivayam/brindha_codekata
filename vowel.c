@@ -4,8 +4,6 @@ int main()
 {
     char ch;
     int lc_Vowel, uc_Vowel;
-
-    printf("Please Enter an alphabet: \n");
     scanf(" %c", &ch);
 
     lc_Vowel = (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u');
