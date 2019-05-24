@@ -20,6 +20,6 @@ l=a[n/2];
 for(i=0;i<n;i++)
 printf("%d ",a[i]);
 printf("\n");
-printf("%d",l);
+printf("%d\n",l);
 return 0;
 }
