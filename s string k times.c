@@ -3,8 +3,7 @@ int main()
 {
 char s[100];
 int i,k;
-gets(s);
-scanf("%d",&k);
+scanf("%s %d" ,&s,&k);
 for(i=0;i<k;i++)
 {
 printf("%s\n",s);
