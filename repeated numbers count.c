@@ -13,6 +13,6 @@ if(a[i]==a[j])
 c++;
 }
 }
-printf("%d",c);
+printf("%d",c+1);
 return 0;
 }
