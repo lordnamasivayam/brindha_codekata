@@ -1,18 +1,19 @@
 #include<stdio.h>
-int main()
+int main ()
 {
-int n,k,i,j,c=0,a[50];
-scanf("%d%d",&n,&k);
-for(i=0;i<n;i++)
-scanf("%d",&a[i]);
-for(i=0;i<n;i++)
-for(j=i+1;j<n;j++)
-{
-if(a[i]==a[j])
-{
-c++;
-}
-}
-printf("%d",c+1);
-return 0;
+    int a[40],t,i,n,k,c;
+    scanf("%d%d",&n,&k);
+    for(i=0;i<n;i++)
+    scanf("%d",&a[i]);
+    for(i=0;i<n;i++)
+    {
+        if(a[i]==k)
+        c++;
+        t=k;
+    }
+    if(t==k)
+    printf("%d",c);
+    else
+    printf("not found");
+    return 0;
 }
