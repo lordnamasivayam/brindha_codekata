@@ -1,10 +1,11 @@
 #include<stdio.h>
 int main()
 {
-int a,b,n;
+int n;
 scanf("%d",&n);
-a=(n/7)*7;
-b=a+7;
-printf("%d",b);
+if(n%7==0)
+printf("yes");
+else
+printf("no");
 return 0;
 }
