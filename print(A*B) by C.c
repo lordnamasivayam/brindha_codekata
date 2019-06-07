@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-int a,b,c,d;
-scanf("%d%d%d",&a,&b,&c);
-d=(a*b)/c;
+int k,l,m,d;
+scanf("%d%d%d",&k,&l,&m);
+d=(k*l)/m;
 printf("%d",d);
 return 0;
 }
