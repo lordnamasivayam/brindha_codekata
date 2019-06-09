@@ -10,8 +10,8 @@ if((st[i]>='a' || st[i]<='z' || st[i]>='A' || st[i]<='Z') && (st[i]>='0' && st[i
 f=1;
 }
 if(f==1)
-printf("yes");
+printf("Yes");
 else
-printf("no");
+printf("No");
 return 0;
 }
