@@ -4,29 +4,29 @@
 int main()
 {
     int i, j;
-    char str[10][50], temp[50];
+    char st[10][50], t[50];
 
     printf("Enter 10 words:\n");
 
     for(i=0; i<10; ++i)
-        scanf("%s[^\n]",str[i]);
+        scanf("%s[^\n]",st[i]);
 
 
     for(i=0; i<9; ++i)
         for(j=i+1; j<10 ; ++j)
         {
-            if(strcmp(str[i], str[j])>0)
+            if(strcmp(st[i], st[j])>0)
             {
-                strcpy(temp, str[i]);
-                strcpy(str[i], str[j]);
-                strcpy(str[j], temp);
+                strcpy(t, st[i]);
+                strcpy(st[i], st[j]);
+                strcpy(st[j], t);
             }
         }
 
     printf("\nIn lexicographical order: \n");
     for(i=0; i<10; ++i)
     {
-        puts(str[i]);
+        puts(st[i]);
     }
 
     return 0;
