@@ -8,7 +8,8 @@ for(i=0;i<n;i++)
 {
 s=s+v;
 v=v+d;
+  printf("%d ",v);
 }
-printf("%d",s);
+printf("\n%d",s);
 return 0;
 }
